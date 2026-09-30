@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Règles de confidentialité — hermes-agenda</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+         font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  h1 { font-size: 1.6rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  ul { padding-left: 1.2rem; }
+  code { background: rgba(127,127,127,.15); padding: .1rem .35rem; border-radius: 4px; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(127,127,127,.3);
+           font-size: .9rem; color: #6b7280; }
+  @media (prefers-color-scheme: dark) { body { background: #14171a; color: #e7e9ea; }
+    footer { color: #9aa0a6; } }
+</style>
+</head>
+<body>
+
+<h1>Règles de confidentialité — hermes-agenda</h1>
+<p>Dernière mise à jour : septembre 2026.</p>
+
+<h2>1. Qui est concerné</h2>
+<p>
+  <code>hermes-agenda</code> est une application personnelle, non publiée et non commerciale,
+  utilisée par son unique propriétaire pour connecter son propre agenda Google à son agent
+  d'assistance local. Cette politique décrit la manière dont l'application accède aux données
+  Google de son utilisateur, les utilise, les conserve et les partage.
+</p>
+
+<h2>2. Données Google auxquelles l'application accède</h2>
+<p>L'application demande une seule portée d'autorisation :</p>
+<ul>
+  <li><code>https://www.googleapis.com/auth/calendar</code> — consulter et modifier les agendas
+      et les événements de l'utilisateur.</li>
+</ul>
+<p>
+  Aucune autre donnée Google n'est demandée ni accessible : ni Gmail, ni Drive, ni Contacts,
+  ni données de profil au-delà de ce que Google transmet pour authentifier la connexion.
+</p>
+
+<h2>3. Utilisation des données</h2>
+<p>Les données d'agenda sont utilisées exclusivement pour :</p>
+<ul>
+  <li>afficher à l'utilisateur ses événements à venir, à sa demande ;</li>
+  <li>créer, modifier ou supprimer un événement lorsque l'utilisateur le lui demande explicitement.</li>
+</ul>
+<p>
+  Aucune donnée n'est utilisée pour de la publicité, du profilage, de l'analyse comportementale
+  ou pour entraîner, affiner ou améliorer un modèle d'intelligence artificielle.
+</p>
+
+<h2>4. Stockage et sécurité</h2>
+<p>
+  L'application fonctionne localement sur l'ordinateur de son propriétaire. Les jetons
+  d'autorisation délivrés par Google sont enregistrés dans un fichier local du profil utilisateur
+  (<code>google_token.json</code>), accessible uniquement à son propriétaire. Aucune donnée
+  d'agenda n'est copiée ni stockée sur un serveur exploité par l'application.
+</p>
+
+<h2>5. Partage avec des tiers</h2>
+<p>
+  Aucune donnée Google n'est vendue, louée, transmise ou partagée avec un tiers. Aucun
+  sous-traitant n'accède aux données Google de l'utilisateur dans le cadre de cette application.
+</p>
+
+<h2>6. Conservation et suppression</h2>
+<p>
+  Les jetons d'autorisation sont conservés tant que l'utilisateur souhaite utiliser l'application.
+  L'utilisateur peut à tout moment révoquer l'accès accordé à l'application depuis la page
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> ;
+  la suppression du fichier de jeton local efface alors la totalité des données conservées par
+  l'application.
+</p>
+
+<h2>7. Conformité à la politique Google</h2>
+<p>
+  L'utilisation des informations reçues depuis les API Google respecte la
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services
+  User Data Policy</a>, y compris les exigences d'utilisation limitée (<em>Limited Use</em>).
+  Les données Google ne sont ni transférées ni utilisées à des fins autres que celles décrites
+  ci-dessus, et ne servent jamais à entraîner des modèles d'intelligence artificielle ou
+  d'apprentissage automatique.
+</p>
+
+<h2>8. Contact</h2>
+<p>Questions ou demandes relatives à ces règles : <a href="mailto:ouisiticrame@gmail.com">ouisiticrame@gmail.com</a>.</p>
+
+<footer>Application personnelle, non commerciale · un seul utilisateur : son propriétaire.</footer>
+
+</body>
+</html>

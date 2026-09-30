@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hermes-agenda — application personnelle</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+         font: 16px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  h1 { font-size: 1.7rem; margin-bottom: .25rem; }
+  .sub { color: #6b7280; margin-top: 0; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  ul { padding-left: 1.2rem; }
+  code { background: rgba(127,127,127,.15); padding: .1rem .35rem; border-radius: 4px; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgba(127,127,127,.3);
+           font-size: .9rem; color: #6b7280; }
+  @media (prefers-color-scheme: dark) { body { background: #14171a; color: #e7e9ea; }
+    .sub, footer { color: #9aa0a6; } }
+</style>
+</head>
+<body>
+
+<h1>hermes-agenda</h1>
+<p class="sub">Application personnelle d'assistant pour Google Agenda.</p>
+
+<h2>Ce que fait cette application</h2>
+<p>
+  <code>hermes-agenda</code> est une application personnelle, à usage unique : elle permet à
+  <strong>son propre propriétaire</strong> de consulter et de gérer son agenda Google depuis son
+  agent d'assistance local (« Hermes »), en langage naturel — par exemple
+  « qu'est-ce que j'ai demain ? » ou « ajoute un rendez-vous mardi à 14 h ».
+</p>
+<ul>
+  <li>Elle n'est <strong>pas distribuée</strong> au public et ne possède <strong>qu'un seul utilisateur</strong> : son propriétaire.</li>
+  <li>Elle fonctionne <strong>localement</strong>, sur l'ordinateur du propriétaire. Aucune donnée n'est transmise à un serveur tiers exploité par l'application.</li>
+  <li>Elle ne vend, ne partage et ne transfère aucune donnée à des fins publicitaires, d'analyse ou d'entraînement de modèles.</li>
+</ul>
+
+<h2>Autorisation demandée</h2>
+<p>
+  L'application demande uniquement la portée
+  <code>https://www.googleapis.com/auth/calendar</code> (voir et modifier les agendas de
+  l'utilisateur). Elle ne demande <strong>aucun accès</strong> à Gmail, Drive, Contacts ou à toute
+  autre donnée Google.
+</p>
+
+<h2>Confidentialité</h2>
+<p>
+  Les données d'agenda ne sont utilisées que pour afficher et modifier l'agenda de l'utilisateur,
+  selon sa demande explicite. Aucune donnée n'est revendue ni exploitée à d'autres fins.
+  Le détail complet figure dans notre
+  <a href="privacy.html">règles de confidentialité</a>.
+</p>
+
+<h2>Contact</h2>
+<p>Pour toute question relative à cette application : <a href="mailto:ouisiticrame@gmail.com">ouisiticrame@gmail.com</a>.</p>
+
+<footer>Dernière mise à jour : septembre 2026 · Application personnelle, non commerciale.</footer>
+
+</body>
+</html>
